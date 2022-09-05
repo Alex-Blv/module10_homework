@@ -1,0 +1,50 @@
+.btn {
+  
+  
+  border-radius: .5em;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  display: flex;
+  margin: 5px 10px;
+  padding: 10px 25px;
+  font-size: 12px;
+  line-height: 15px;
+  text-transform: uppercase;
+  color: white;
+  background: #315efb;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+ /* transform: scale(1.05); */
+ background: #5d9cec;
+}
+
+.btn_text {
+  margin-right: 10px;
+}
+
+.btn_icon, .btn_icon_black {
+  width: 15px;
+  height: 15px;
+  font-size: 15px;
+}
+
+.btn_icon_black {
+  position: absolute;
+  top: 89px;
+  left: 225px;
+}
+
+.btn_icon {
+  position: absolute;
+  top: 89px;
+  left: 225px;
+  
+}
+
+.none {
+  display: none
+}
